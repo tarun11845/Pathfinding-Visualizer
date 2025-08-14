@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Pathfinding Visualizer</h1>
+
+<div class="controls">
+    <button onclick="setMode('start')">Set Start</button>
+    <button onclick="setMode('end')">Set End</button>
+    <button onclick="setMode('wall')">Add Walls</button>
+    <button onclick="setMode('removeWall')">Remove Walls</button>
+    <button onclick="runBFS()">Run BFS</button>
+    <button onclick="runDFS()">Run DFS</button>
+    <button onclick="runDijkstra()">Run Dijkstra's</button>
+    <button onclick="runAStar()">Run A*</button>
+    <button onclick="resetGrid()">Reset</button>
+</div>
+
+<div class="grid-container">
+    <div class="grid" id="grid"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
