@@ -18,8 +18,8 @@ It allows you to visualize various pathfinding and graph traversal algorithms st
 - **Clear and Reset** options
 
 ## 🌐 Live Demo
-Try it out here: [Pathfinding Visualizer Live](https://your-live-demo-link.com)  
-*(Replace with your actual deployed link)*
+Try it out here: [pathfinding-visualizer11.netlify.app](https://pathfinding-visualizer11.netlify.app/)
+
 
 ## 📷 Demo Screenshot
 <img width="1917" height="899" alt="image" src="https://github.com/user-attachments/assets/03daf7f6-d049-407f-8cc6-e232d01b784b" />
